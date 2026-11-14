@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dear...</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="images/stars.png" alt="stars" class="design stars"/>
+    <img src="images/stars2.png" alt="stars" class="design stars2"/>
+    <img src="images/decoletter.png" alt="letter" class="design decoletter"/>
+    <img src="images/stars3.png" alt="stars" class="design stars3"/>
+    <img src="images/clover.png" alt="clover" class="design clover"/>
+    <img src="images/bee.png" alt="bee" class="design bee"/>
+    <img src="images/message.png" alt="message" class="design message"/>
+    <img src="images/miffy.png" alt="miffy" class="design miffy"/>
+    <img src="images/lily.png" alt="lily" class="design lily"/>
+    <div class="container">
+      <div>
+        <p id="notif">You've got mail!</p>
+      </div>
+      <div class="intro" id="introText">
+        [Notification] One new message. Click open to see.
+      </div>
+    </div>
+      <button class="btn" onclick="showLetter()">Open</button>
+    <div class="letter" id="letterBox">
+      <p id="typedText"></p>
+      <img src="images/stamp.png" alt="Signature" class="signature" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
